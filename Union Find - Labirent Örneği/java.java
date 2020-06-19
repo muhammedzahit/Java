@@ -7,8 +7,6 @@ public class java {
         Bu algoritma girilen labirentte yukarıdan aşağıya bir çıkış yolu olup olmadığını bulur.
         Union-Find algoritması kullanılmıştır.
         */
-        Scanner scanner = new Scanner(System.in);
-         */
         UF uf = new UF();
         int [][] grid = {
                 {0,1,1,1,1},
